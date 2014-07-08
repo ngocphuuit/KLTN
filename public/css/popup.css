@@ -1,0 +1,19 @@
+
+.bubbleInfo {
+    position: relative;
+}
+
+.popup {
+    color: white;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255,255,255, 0.25);
+    width: 600px;
+    height: 400px;
+    padding: 8px 12px 6px;
+    z-index: 200;
+    display: none; /* keeps the popup hidden if no JS available */
+}
+.img-popup{
+	padding: 
+}

@@ -1,0 +1,1 @@
+<a class="btn btn-success post-btn follower" href="{{asset('follow')}}/{{$username}}" >Theo dõi</a>

@@ -1,0 +1,406 @@
+@font-face {
+ font-family:arialr;
+ src:url('../fonts/arialr.ttf') format('truetype');
+ font-weight:normal;
+ font-style:normal;
+}
+.aboutme{
+    width: 100%;
+    position: relative;
+    padding: 20px 0px 30px 0px;
+    background: rgba(255,255,255,0.5);
+    border-bottom: 1px solid #E9EAED;
+}
+.title-album{
+    padding: 10px;
+    font-size: 18px;
+}
+.box-s{
+    -webkit-box-shadow: inset 0px 0px 3px 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0px 0px 3px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0px 0px 3px 3px rgba(0,0,0,0.1);
+}
+.post-detail2{
+    min-height: 30px;
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #E9EAED;
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.thumbnails li{
+    padding-bottom: 10px;
+}
+.roundava{
+    width: 110px;
+    height: 110px;
+    margin: 0px auto;
+    border: 1px solid rgba(0,0,0,0.6);
+    overflow: hidden;
+    border-radius: 100%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+.aboutme h1{
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: normal;
+    color: rgba(0,0,0,0.7);
+    margin-top: 10px;
+}
+.img-round{
+    display: block;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    opacity: 1;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+.psn-wrap{
+    width: 100%;
+    height:100%;
+    background:url('../img/psnbg.jpg') no-repeat fixed center center;
+    min-height:600px;
+}
+.comment{
+    padding: 2px 2px;
+    margin-top: 2px;
+    border-radius: 0px;
+}
+.fix-comment{
+    padding-left: 50px !important;
+    background: #eee;
+    border-top: 1px solid #e7e7e7;
+}
+.psn-contain{
+    width:947px;
+    height: 100%;
+    margin:auto;
+    min-height: 1000px;
+    background: url('../img/wash-white-30.png') repeat;
+    padding: 20px 30px;
+    margin-top:18px;
+    overflow: hidden;
+}
+.psn-content{
+    width:100%;
+    height:100%;
+}
+.left-psncontent{
+    float:left;
+    width: 330px;
+}
+.right-psncontent{
+    float:right;
+    width: 520px;
+}
+.module{
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 16px;
+    background-clip: padding-box;
+    border: 1px solid #E9EAED;
+    border: 1px solid rgba(0,0,0,.1);
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.list-link{
+    position: relative;
+    display: block;
+    padding:8px 8px;
+    background:#F6F7F8;
+    border-bottom: 1px solid #E9EAED;
+}
+.list-link:hover{
+    background: white;
+}
+.list-group-item{
+    padding:0px 0px;
+    border-radius: 0px !important;
+    border:none;
+}
+.module ul li:hover a{
+    background:white;
+}
+.profile{
+    font-family: arialr;
+    position: relative;
+    display: block;
+    padding:8px 8px;
+}
+.list-group{
+    margin-bottom:0px;
+}
+.media-box{
+    position: relative;
+    height: 216px;
+    overflow: hidden;
+    padding: 5px 8px 0 9px;
+}
+.thumbnail-placeholder{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.account-summary{
+    position: relative;
+    display: block;
+    min-height: 48px;
+}
+.account-summary .content {
+min-height: 48px;
+}
+.account-summary .content {
+margin-left: 58px;
+margin-right: 20px;
+}
+.account-summary .account-group, .account-summary .account-action {
+display: block;
+line-height: 16px;
+}
+.account-summary .avatar {
+position: absolute;
+top: 0;
+left: 0;
+}
+.avatar {
+width: 48px;
+height: 48px;
+border-radius: 5px;
+-moz-force-broken-image-icon: 1;
+}
+.avatar2 {
+width: 65px;
+height: 65px;
+border-radius: 5px;
+-moz-force-broken-image-icon: 1;
+}
+.palbum{
+    width: 100px;
+    height: 100px;
+}
+.account-summary .account-group-inner, .account-summary .metadata {
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.fullname{
+    font-weight: bold;
+    color: #333;
+}
+.username{
+    direction: ltr;
+    unicode-bidi: embed;
+}
+.bg-white{
+    background:white;
+}
+.alert{
+    padding:0px 0px;
+    margin-bottom:0px;
+}
+.close{
+    margin-right:10px;
+}
+.content .btn{
+    padding:2px 2px;
+    margin-top:2px;
+    border-radius:0px;
+}
+.content img{
+    border-radius:0px;
+}
+.wrap-user{
+    padding:5px 5px;
+}
+.small{
+    margin-left:10px;
+    font-size:13px;
+}
+.list-link a:hover{
+    color:#428bca;
+    text-decoration:underline !important;
+}
+.js-username{
+    color: #777;
+}
+.headbg{
+    background-color: #444;
+    height: 260px;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.profilebg{
+position: absolute;
+z-index: 5;
+margin: 20px auto 6px;
+display: block;
+bottom: 110px;
+left: 230px;
+width: 73px;
+height: 73px;
+border: 4px solid #fff;
+background-color: #fff;
+border-radius: 5px;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.25);
+box-shadow: 0 1px 1px rgba(0,0,0,.25);
+}
+.wrap-tweet{
+    background:white;
+    border-top: 1px solid #E9EAED;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.tweet{
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+    float: left;
+}
+.tweet li{
+    display: inline;
+    text-align: -webkit-match-parent;
+    text-shadow: 0 1px 0 #fff;
+}
+.js-nav{
+    float: left;
+    padding: 10px 30px 8px 12px;
+    border-left: 1px solid #e8e8e8;
+    border-top: 0;
+    display: block;
+    color: #999;
+    font-size: 10px;
+    line-height: 16px;
+    text-transform: uppercase;
+    
+}
+.wrap-tweet .btn{
+    padding: 2px 2px;
+    margin-top: 4px;
+    border-radius: 0px;
+}
+.post-detail{
+    min-height:30px;
+    display:block;
+    position:relative;
+    border-bottom: 1px solid #E9EAED;
+    background:white;
+    margin-bottom: 10px;
+}
+.post-detailfl{
+    min-height:30px;
+    display:block;
+    position:relative;
+    border-bottom: 1px solid #E9EAED;
+    background:white;
+}
+.post-detail .content{
+    padding: 8px 8px;
+}
+.post-detailfl .content{
+    padding: 8px 8px;
+}
+.time{
+    float:right;
+    color:#777;
+    display: inline-block;
+}
+.post-content{
+    padding: 8px 8px;
+}
+.stream-item{
+    display: inline-block;
+    margin-top: 9px;
+    background-color: #fff;
+}
+.right-item{
+    right: 1px;
+    padding-left: 5px;
+    list-style: none;
+}
+.right-item li{
+    display: inline-block;
+    text-align: -webkit-match-parent;
+    font-size: 12px;
+}
+#accordion .icon{
+    display: inline-block;
+    vertical-align: text-top;
+    background-image: url(../img/icon/twitter_icons.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    
+}
+#accordion a:hover{
+    color:#999;
+}
+#accordion a:hover .icon{
+     background-color: #999;
+}
+.sm-reply{
+    height: 13px;
+    background-position: 0 -220px !important;
+    width: 12px;
+    background-color: #428bca;
+}
+.sm-rtw{
+    background-position: -20px -220px !important;
+    width: 12px;
+    background-color: #428bca;
+    height: 13px;
+}
+.sm-fvr{
+    background-position: -40px -220px !important;
+    width: 12px;
+    background-color: #428bca;
+    height: 13px;
+}
+.sm-ds{
+    background-position: -280px -190px !important;
+    width: 15px;
+    background-color: #428bca;
+    height: 13px;
+}
+.title-tweet{
+    display:inline-block;
+}
+.post-btn{
+    display:inline-block;
+    padding: 2px 2px;
+    margin-left:335px;
+    border-radius: 0px;
+}
+.nameblock{
+    width: 205px !important;
+    display: inline-block !important;
+}
